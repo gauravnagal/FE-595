@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 # Taking one period (2 * pi) on X-axis
 X = np.arange(0, 2 * np.pi, 0.001)
 
-# Sine and Cosine graph for one period
+# Sine and Cosine plot for one period
 sine = np.sin(X)
 cosine = np.cos(X)
 
