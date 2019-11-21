@@ -33,8 +33,8 @@ def plot_graphs():
     # Generating plot
     plt.plot(X, sine, X, cosine, X, tangent)
     plt.subplot().legend(['Sine', 'Cosine', 'Tangent'])
-    plt.subplot().axvline(x=0, color='black', lw=2.5)
-    plt.subplot().axhline(y=0, color='black', lw=2.5)
+    plt.subplot().axvline(x = 0, color = 'black', lw = 2.5)
+    plt.subplot().axhline(y = 0, color = 'black', lw = 2.5)
     
     plt.show()
 
